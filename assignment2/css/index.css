@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+}
+
+.empty_container {
+    flex: 1;
+    width: 36em;
+    height: 3vh;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-right: 0.5em;
+    padding-top: 1em;
+    padding-bottom: 4em;
+    padding-left: 0.5em;
+    cursor: pointer;
+    background-color: yellow;
+}
+
+.hidden-box {
+    width: 15em;
+    height: 10.5vh;
+    border: 1px solid blue;
+    background-color: blue;
+    cursor: pointer;
+}
+
+.hidden-value {
+    color: white;
+    display: flex;
+    font-size: 4rem;
+    font-weight: 7rem;
+    justify-content: center;
+}
+
+.result_container {
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+}
